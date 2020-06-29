@@ -1,0 +1,13 @@
+.rss-feed-form {
+  border: 1px solid;
+  width: 50%;
+  border-radius: 6px;
+  margin: 20px auto;
+  padding: 20px;
+}
+.rss-feed-form__url-input {
+  width: 80%;
+}
+.rss-feed-form__submit {
+  margin: 10px 20px;
+}

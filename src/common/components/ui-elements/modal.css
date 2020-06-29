@@ -1,0 +1,30 @@
+.modal {
+  z-index: 100;
+  position: fixed;
+  top: 25%;
+  left: 30%;
+  width: 40%;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 8px;
+}
+  
+  .modal__header {
+    padding: 10px;
+    background: #2a006e;
+    color: white;
+  }
+  
+  .modal__header h2 {
+    margin: 0.5rem;
+  }
+  
+  .modal__content {
+    padding: 20px;
+  }
+  
+  .modal__footer {
+    padding: 20px;
+    overflow: hidden;
+  }
+  
