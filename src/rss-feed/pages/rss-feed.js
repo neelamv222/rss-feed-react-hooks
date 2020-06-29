@@ -27,6 +27,9 @@ function RssFeed() {
     const Parser = require("rss-parser");
     const parser = new Parser();
     setShowLoader(true);
+    setPaginationData((prevState) => ({
+      ...prevState, totalItems: []
+    }));
     try {
       let feeds = await parser.parseURL(`${CORS_PROXY}${feedUrl}`);
       setPaginationData((prevState) => ({
