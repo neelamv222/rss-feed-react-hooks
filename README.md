@@ -23,8 +23,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 
 
-Task 1 is done inside helpers.js file inside the commented section.
-For Task 2, I have used below dependencies:
+I have used below dependencies:
 1) Material UI : To make UI look better
 2) RSS parser:  to parser the RSS data
 3) Few Dependencies added for writing unit test cases: I have written testcases in few files.
